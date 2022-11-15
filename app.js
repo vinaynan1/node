@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send("Updated");
 });
 
-const port = process.env.port || 3000;
+const port = 8080;
 app.listen(port, () => {
     console.log(port);
 });
